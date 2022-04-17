@@ -1,0 +1,7 @@
+.main {
+  margin: 10px;
+  border-style: solid;
+  border-color: blue;
+  display: flex; /* 인접한 요소 세로배치(Home.js) */
+  justify-content: space-evenly;
+}

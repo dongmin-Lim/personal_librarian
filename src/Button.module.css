@@ -1,0 +1,9 @@
+.btn {
+  background-color: rgb(88, 141, 255);
+  color: white;
+  border: 0px;
+  width: 100px;
+  height: 50px;
+  text-align: center; /* ex) 버튼 안의 글자 가로 가운데 정렬 */
+  line-height: 50px; /* ex) 버튼 안의 글자 세로 가운데 정렬 */
+}
