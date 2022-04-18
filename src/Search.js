@@ -16,19 +16,20 @@ function Search() {
     setSearch(e.target.value);
   };
 
-  const onClick = () => console.log(search);
+  const onClick = () => console.log(`Move ${search}`);
 
   return (
     <form className={styles.main} onSubmit={onSubmit}>
       <input
         type="text"
         onChange={onChange}
+        placeholder="책 제목을 입력해주세요..."
         className={styles.search}
         value={search}
         autoFocus={true}
       />
       <Link to={`/${search}`}>
-        <Button text="검색" onClick={onClick} />
+        <Button onClick={onClick} src="images/search.png" />
       </Link>
     </form>
   );

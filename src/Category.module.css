@@ -1,0 +1,26 @@
+.main {
+  margin: 1px;
+  border-style: solid;
+  border-color: rgb(0, 158, 0);
+}
+
+.ul {
+  margin: 1px;
+  height: 50px;
+  list-style: none; /* li 점 삭제 */
+  padding-left: 0px; /* li 들여쓰기 공간 삭제 */
+  border-style: solid;
+  border-color: rgb(0, 180, 0);
+  display: flex; /* 인접한 요소 가로배치(Home.js) */
+  justify-content: space-evenly;
+}
+
+.li {
+  margin: 1px;
+  padding-left: 85px;
+  width: 100%;
+  border-style: solid;
+  border-color: rgb(0, 255, 0);
+  position: relative;
+  vertical-align: middle;
+}

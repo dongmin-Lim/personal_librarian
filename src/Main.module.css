@@ -1,0 +1,7 @@
+.main {
+  margin: 1px; /* 박스구별쉽게 해놓은 마진 */
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(255, 140, 0);
+  justify-content: space-evenly;
+}

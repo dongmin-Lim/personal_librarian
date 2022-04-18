@@ -1,0 +1,8 @@
+.main {
+  height: 250px;
+  width: 166px;
+  border-style: solid;
+  border-color: aqua;
+  display: inline-flex; /* 인접한 요소 가로배치(Home.js) */
+  justify-content: space-between;
+}
