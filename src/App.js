@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Nav from "./Nav";
-
 import Result from "./Result";
 import styles from "./App.module.css";
 
@@ -11,8 +10,8 @@ function App() {
   };
   return (
     <div className={styles.main}>
-      <Nav />
       <Router>
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} /> {/* react-router-dom 6버전부터 바뀜 */}
           <Route path="/:title" element={<Result />} />

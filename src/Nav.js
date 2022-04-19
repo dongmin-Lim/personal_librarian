@@ -1,10 +1,13 @@
-import Button from "./Button";
+import { Link } from "react-router-dom";
 import styles from "./Nav.module.css";
 
 function Nav() {
   return (
     <div className={styles.main}>
-      <a className={styles.title}>IT 도서 다모아</a>
+      <a className={styles.title}>
+        <Link to={"/"}>IT 도서 다모아</Link>
+        {/* IT 도서 다모아 */}
+      </a>
       <ul className={styles.ul}>
         <li className={styles.li}>도서 목록</li>
         <li className={styles.li}>도서 리뷰</li>

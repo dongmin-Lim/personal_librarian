@@ -1,8 +1,8 @@
 .main {
   margin: 1px;
-  margin-bottom: 30px;
+  padding: 0px 0px 30px 0px;
   border-style: solid;
-  border-color: rgb(255, 209, 141);
+  border-color: rgb(255, 0, 0);
   display: flex; /* 인접한 요소 가로배치(Home.js) */
   justify-content: space-between;
 }

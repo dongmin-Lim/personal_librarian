@@ -1,9 +1,9 @@
 .main {
   margin: 0 auto;
   margin-top: 100px;
-  width: 1200px;
+  width: 1000px;
   border-style: solid;
-  border-color: green;
+  border-color: rgb(255, 230, 0);
 }
 
 .topBtn {
