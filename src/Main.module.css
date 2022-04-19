@@ -1,7 +1,5 @@
 .main {
-  margin: 1px; /* 박스구별쉽게 해놓은 마진 */
-  padding: 30px 0px;
-  border-style: solid;
-  border-color: rgb(255, 140, 0);
-  justify-content: space-evenly;
+  padding: 0px; /* 상 값은 카테고리와 Show_book 사이 패딩 */
+  display: flex;
+  border: 2px solid black;
 }

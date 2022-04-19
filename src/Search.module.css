@@ -1,8 +1,5 @@
 .main {
-  margin: 1px;
-  border-style: solid;
-  border-color: aqua;
-  padding: 20px;
+  padding: 60px;
   display: flex; /* 인접한 요소 가로배치(Home.js) */
   justify-content: center;
   align-items: center;

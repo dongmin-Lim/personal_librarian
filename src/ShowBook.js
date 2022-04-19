@@ -1,7 +1,7 @@
 import Img from "./Img";
-import styles from "./Show_book.module.css";
+import styles from "./ShowBook.module.css";
 
-function Show_book(e) {
+function Show_book() {
   return (
     <div className={styles.main}>
       <Img />

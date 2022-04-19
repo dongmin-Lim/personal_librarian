@@ -1,7 +1,6 @@
 .main {
-  margin: 1px;
-  border-style: solid;
-  border-color: rgb(0, 158, 0);
+  border: 2px rgb(200, 200, 200);
+  background-color: rgb(200, 200, 200);
   align-items: center;
 }
 
@@ -9,20 +8,23 @@
   margin: 1px;
   list-style: none; /* li 점 삭제 */
   padding-left: 0px; /* li 들여쓰기 공간 삭제 */
-  border-style: solid;
-  border-color: rgb(0, 180, 0);
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .li {
   margin: 1px;
-  padding: 20px 20px;
-  width: 100%;
+  padding: 20px;
+  width: 10%;
   height: 18px;
-  border-style: solid;
-  border-color: rgb(0, 255, 0);
   cursor: pointer;
   font-size: 18px;
-  color: rgb(88, 141, 255);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
 }
