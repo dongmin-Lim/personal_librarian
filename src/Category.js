@@ -1,16 +1,11 @@
-import styles from "./Category.module.css";
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import styles from "./Category.module.css";
 
 function Li({ text }) {
-  const [category, setCategory] = useState("");
-
-  const onClick = (e) => {
-    setCategory(e.target.innerText);
-  };
   return (
-    <li className={styles.li} onClick={onClick}>
-      <Link to={`/${category}`}>{text}</Link>
+    <li className={styles.li}>
+      <Link to={`/${text}`}>{text}</Link>
     </li>
   );
 }
